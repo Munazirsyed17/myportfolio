@@ -74,4 +74,22 @@ function clicked()
 
 
 
+function certdown(){
+   
+    var a=document.getElementById("hidebtn2");
+    
+    var b=document.getElementById("show");
+    if(b.className === "projects-grid2")
+    {
+        b.className += " show";
+        console.log("all certficates");
+        a.innerHTML="See few ^";
+       
+    }
+    else{
+        b.className  = "projects-grid2"
+        console.log("Some certificates");
+        a.innerHTML="See all->";
+    }
+}
 
