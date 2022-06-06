@@ -96,10 +96,10 @@ function projectdown(){
    
     var p=document.getElementById("hidebtn3");
     
-    var k=document.getElementById("show2");
+    var k=document.getElementById("show");
     if(k.className === "projects-grid2")
     {
-        k.className += " show2";
+        k.className += " show";
         console.log("all projects");
         p.innerHTML="See few ^";
        
