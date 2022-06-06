@@ -4,11 +4,11 @@ function dropdown(){
     if(x.className === "top-nav")
     {
         x.className += " responsive ";
-        console.log("navbar open");
+        
     }
     else{
         x.className  = "top-nav"
-        console.log("navbar closed")
+        
     }
 
 
@@ -16,33 +16,33 @@ function dropdown(){
     if(n.className === "option")
     {
         n.className += " responsive2 ";
-        console.log("animation closed");
+        
     }
     else{
         n.className  = "option"
-        console.log("animation opened")
+        
     }
 
     var w=document.getElementById("CV");
     if(w.className === "dropdown")
     {
         w.className += " responsive3 ";
-        console.log("animation closed");
+        
     }
     else{
         w.className  = "dropdown"
-        console.log("animation opened")
+       
     }
 
     var w=document.getElementById("hidebtn");
     if(w.className === "btn")
     {
         w.className += " responsive3 ";
-        console.log("animation closed");
+        
     }
     else{
         w.className  = "btn btn-show-all"
-        console.log("animation opened")
+        
     }
 
 
@@ -92,4 +92,21 @@ function certdown(){
         a.innerHTML="See all->";
     }
 }
-
+function projectdown(){
+   
+    var p=document.getElementById("hidebtn3");
+    
+    var k=document.getElementById("show2");
+    if(k.className === "projects-grid2")
+    {
+        k.className += " show2";
+        console.log("all projects");
+        p.innerHTML="See few ^";
+       
+    }
+    else{
+        k.className  = "projects-grid2"
+        console.log("Some projects");
+        p.innerHTML="See all->";
+    }
+}
