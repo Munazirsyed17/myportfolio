@@ -709,7 +709,9 @@ h2:hover{
     width: 80%;
 }
 .projects-grid2{
-    display: none;
+   
+    display: flex;
+    align-items: center;
     
 }
 
